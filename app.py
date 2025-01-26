@@ -153,4 +153,21 @@ print(numbers)
 
 
 
+# names = ['John', 'Eva', 'Laura', 'Nick', 'Jack']
+
+# del names[1]
+# print(names)
+
+# del names[1: 3]
+# print(names)
+
+# del names
+
+# print(names)
+
+
+# length 
+cars = ['BMW', 'Mercedes', 'Tesla']
+
+print('Total Elements:', len(cars))
 
