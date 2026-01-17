@@ -64,10 +64,62 @@
 
 # print(message)
 
-high_income = True
-good_credit = True
-student = True
-if (high_income and good_credit) and not student:
-    print("Eligible for loan")
-else:
-    print("Not eligible for loan")
+# high_income = True
+# good_credit = True
+# student = True
+# if (high_income and good_credit) and not student:
+#     print("Eligible for loan")
+# else:
+#     print("Not eligible for loan")
+
+# age should be between 18 and 65 to work
+# age = 18
+# if age >=18 and age <=65:
+# if 18 <= age < 65:
+# print("Eligible to work")
+
+# if 10 == "10":
+#     print("a")
+# elif "bag" > "apple" and "bag" > "cat":
+#     print("b")
+# else:
+#     print("c")
+
+# for number in range(1, 10, 2):
+#     print("Attempt", number, number * ".")
+
+# successful = True
+# for number in range(3):
+#     print("Attempt")
+#     if successful:
+#         print("Successful")
+#         break
+# else:
+#     print("Attempted 3 times and failed")
+
+# for x in range(1, 5):
+#     for y in range(1,3):
+#         print(f"({x} , {y})")
+
+# number = 100
+# while number > 0:
+#     print(number)
+#     number //=  2
+
+# command = ""
+# while command.lower() != "quit":
+#     command = input(">")
+#     print("ECHO", command)
+
+# while True:
+#     command = input(">")
+#     print("ECHO", command)
+#     if command.lower() == "quit":
+#         break
+
+count = 0
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"we have {count} even numbers")
