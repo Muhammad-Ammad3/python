@@ -117,9 +117,54 @@
 #     if command.lower() == "quit":
 #         break
 
-count = 0
-for number in range(1, 10):
-    if number % 2 == 0:
-        count += 1
-        print(number)
-print(f"we have {count} even numbers")
+# count = 0
+# for number in range(1, 10):
+#     if number % 2 == 0:
+#         count += 1
+#         print(number)
+# print(f"we have {count} even numbers")
+
+# def greet():
+#     print("hey there")
+#     print("welcome to python class")
+
+
+# greet()
+
+# def greet(frist_name , last_name):
+#     print(f"hey there {frist_name} {last_name}")
+#     print("welcome to python class")
+
+
+# greet("Muhammad", "Ammad")
+
+# def greet(name):
+#     print(f"hi {name}")
+
+
+# def get_greeting(name):
+#     return f"hi {name}"
+
+# message = get_greeting("Ammad")
+
+# def increment (number, by):
+#     return number + by
+
+
+# result = increment(2, 5)
+# print(result)
+
+# def increment (number, by=5):
+#     return number + by
+
+
+# print(increment(2))
+
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+
+print(multiply(2, 3, 4, 5))
